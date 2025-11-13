@@ -1,0 +1,70 @@
+Please redesign the Flow1099 landing page to appeal to creative agencies with these specific changes:
+
+IMMEDIATE VISUAL IMPROVEMENTS:
+
+1. HERO SECTION:
+- Add animated gradient mesh background using CSS animations (purple to blue to pink)
+- Implement parallax scrolling effect on hero elements
+- Add subtle floating animation to any decorative elements
+- Create a "creative flow" text animation that morphs between words
+- Add glassmorphism effect to any stats or info cards (backdrop-filter: blur)
+
+2. TYPOGRAPHY:
+- Use "DM Sans" for headlines (already mentioned but make it bolder, 700-900 weight)
+- Increase headline sizes dramatically (64px+ on desktop)
+- Add fade-up animations on scroll using Intersection Observer
+- Make numbers in stats HUGE (72px+) with gradient text effect
+
+3. FEATURE CARDS:
+- Convert to bento grid layout with varying heights
+- Add 3D tilt effect on hover using CSS transforms
+- Apply gradient borders (use CSS gradient + padding trick)
+- Add subtle shadows and blur effects for depth
+- Include micro-animations (icons that animate on hover)
+
+4. COLOR PALETTE UPDATE:
+CSS Variables:
+--primary: #8B5CF6 (purple)
+--secondary: #3B82F6 (blue)  
+--accent: #10B981 (emerald green for CTAs)
+--gradient: linear-gradient(135deg, #667EEA 0%, #764BA2 100%)
+--glass: rgba(255, 255, 255, 0.1)
+--blur: blur(10px)
+
+5. INTEGRATIONS:
+- Add actual logo images for: Harvest, Toggl, QuickBooks, Stripe, Monday.com
+- Create horizontal auto-scrolling carousel animation
+- Add hover states that scale logos up slightly
+
+6. ANIMATIONS:
+- Install framer-motion: npm install framer-motion
+- Add scroll-triggered animations to all sections
+- Implement smooth reveal effects as elements enter viewport
+- Add subtle parallax to background elements
+
+7. PREMIUM TOUCHES:
+- Add noise texture overlay to gradients (use CSS pseudo-element with noise.png)
+- Custom selection color (::selection with brand purple)
+- Smooth scrolling with Lenis or custom implementation
+- Add "glow" effect to buttons on hover
+- Implement magnetic cursor effect near CTAs
+
+8. LAYOUT IMPROVEMENTS:
+- Add more whitespace between sections (120px+ padding)
+- Create one asymmetrical section (offset grid)
+- Use CSS Grid for complex layouts, not just flexbox
+- Add a decorative SVG wave divider between sections
+
+9. INTERACTIVE ELEMENTS:
+- Add cursor trail effect (small dots following cursor)
+- Button hover: scale(1.05) with glow effect
+- Links: animated underline that draws from left to right
+- Add micro-interactions to all clickable elements
+
+10. PERFORMANCE WITH BEAUTY:
+- Use CSS animations over JavaScript where possible
+- Implement lazy loading for images
+- Add skeleton screens for loading states
+- Use will-change property for animated elements
+
+Remember: Creative agencies expect Awwwards-level design. Make it feel premium, modern, and slightly playful while maintaining professionalism. The design should make them think "finally, a tax tool that gets us."

@@ -1,0 +1,96 @@
+I need you to create the landing page structure for Flow1099, a tax compliance SaaS specifically targeting creative agencies. We have a logo at /public/flow1099-logo.png that features flowing gradient shapes in blue/purple tones.
+
+TASKS TO COMPLETE:
+1. Install Lucide React: npm install lucide-react
+2. Create /app/page.tsx for the homepage
+3. Create /app/layout.tsx with HTML structure and metadata
+4. Create /components/layout/Header.tsx with navigation
+5. Create /components/layout/Footer.tsx with links and copyright
+6. Add responsive navigation with mobile hamburger menu
+
+BRAND CONTEXT:
+Flow1099 helps creative agencies manage freelancer tax compliance year-round instead of scrambling in January. Our key differentiator is unlimited 1099 filing for $79/month vs competitors' per-form pricing.
+
+TARGET AUDIENCE: Creative agencies (design studios, digital agencies, branding agencies) who work with multiple freelancers per project.
+
+DESIGN REQUIREMENTS:
+- Clean, minimal, typography-forward design (think Stripe meets Linear)
+- Use the color palette from our logo: blues (#6366F1 to #8B5CF6) and purples with gradients
+- Lots of white space, strong grid system
+- Subtle animations on scroll and hover
+- Mobile-first responsive design
+- Professional but approachable, not corporate
+
+HOMEPAGE STRUCTURE (/app/page.tsx):
+
+Hero Section:
+- Headline: "Tax compliance that doesn't interrupt your creative flow"
+- Subheadline: "Stop losing billable hours to 1099 paperwork. Manage freelancer taxes as beautifully as you manage projects."
+- Two CTAs: "Start Free Trial" (primary) and "Watch 2-min Demo" (secondary)
+- Below CTAs: "Join 47 agencies on the early access list"
+- Background: Subtle gradient mesh or flowing shapes echoing the logo
+
+Problem Validation Section:
+- Title: "Built for how creative agencies actually work"
+- Three stats cards:
+  • "23 average freelancers per agency"
+  • "47 hours lost to tax compliance annually"  
+  • "$3,200 average IRS penalties per year"
+- Source citation: "Data from Creative Agency Operations Report 2024"
+
+Features Section (4 features in 2x2 grid):
+1. "Project-Based Tracking" - Track freelancers by client and project, not just totals
+2. "Unlimited Filing for $79/month" - One price for your entire creative roster
+3. "Automatic W-9 Collection" - Built into your freelancer onboarding flow
+4. "Smart Payment Monitoring" - Get alerts before crossing IRS thresholds
+
+Integration Section:
+- Title: "Plays perfectly with your creative stack"
+- Show logos in a row: Harvest, Toggl, QuickBooks, Stripe, Monday.com
+- Subtitle: "Seamless integrations with the tools agencies already use"
+
+How It Works (3 steps):
+1. "Connect your payment tools" - Import freelancer data from existing systems
+2. "We handle compliance year-round" - Automatic W-9 requests and threshold monitoring  
+3. "File with confidence in January" - One-click filing with zero surprises
+
+Pricing Preview:
+- Title: "Pricing that makes sense for agencies"
+- Comparison: "Your cost with others: $350-500 for 25 freelancers" vs "Your cost with Flow1099: $79 flat rate"
+- CTA: "View pricing details"
+
+Early Access CTA:
+- Title: "Be among the first agencies to automate tax compliance"
+- Email signup form with button "Reserve Early Access"
+- Below: "Launching January 2025 • Lock in founder pricing"
+
+HEADER (/components/layout/Header.tsx):
+- Logo on left (use the uploaded logo)
+- Center nav items: Features, Pricing, Integrations, About
+- Right side: "Sign In" link and "Start Free Trial" button
+- Mobile: Hamburger menu with slide-out drawer
+- On scroll: Add subtle backdrop blur and shadow
+
+FOOTER (/components/layout/Footer.tsx):
+- 4 columns:
+  • Product: Features, Pricing, Integrations, API Docs
+  • Company: About, Blog, Careers (marked "Coming Soon")
+  • Legal: Terms, Privacy, Security
+  • Connect: Contact, Twitter/X, LinkedIn
+- Bottom bar: © 2025 Flow1099 • "Built for creative agencies, by creative agency veterans"
+
+LAYOUT (/app/layout.tsx):
+- Include metadata for SEO
+- Add Inter font for body text and DM Sans for headings
+- Set up the gradient color scheme as CSS variables
+- Include smooth scroll behavior
+
+TECHNICAL NOTES:
+- Use Tailwind CSS for styling
+- Implement intersection observer for scroll animations
+- Use Next.js Image component for optimized logo loading
+- Make all CTAs track events for analytics (prepare for future implementation)
+- Ensure WCAG AA accessibility compliance
+- Test on mobile devices first
+
+Copy the Flow1099 logo image to /public/flow1099-logo.png for use in the header.
